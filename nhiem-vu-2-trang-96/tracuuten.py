@@ -13,7 +13,8 @@ while(ten!='end'):
         for i in range(0,len(ten_list)):
             if ten==ten_list[i]:
                 vitri=i
-            if vitri==-1:
-                print('Khong tim thay hoc sinh trong danh sach')
-            else:
-                print('Diem so cua hoc sinh la:' ,diem_list[vitri])
+                break
+        if vitri==-1:
+            print('Khong tim thay hoc sinh trong danh sach')
+        else:
+            print('Diem so cua hoc sinh la:' ,diem_list[vitri])
