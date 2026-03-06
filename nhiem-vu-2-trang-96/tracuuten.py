@@ -9,7 +9,7 @@ ten=''
 while(ten!='end'):
     ten = input('Nhập tên học sinh cần tra cứu, nhập từ khóa end để kết thúc:')
     if (ten!='end'):
-        vitri=1
+        vitri=-1
         for i in range(0,len(ten_list)):
             if ten==ten_list[i]:
                 vitri=i
